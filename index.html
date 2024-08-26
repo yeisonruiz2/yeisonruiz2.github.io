@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografia</title>
+    <link rel="stylesheet" href="estilo.css"/>
+    <link rel="stylesheet" href="imag/detalles.css">
 </head>
 <body>
 
@@ -23,9 +25,9 @@
     </section>
 
     <section>
-        <div> 
+        <div id="container">  
             <header>
-                
+                 
             <h2 align="center">Hobbies</h2>
             </header> 
         </div> 
@@ -36,7 +38,7 @@
     
 
     <section>
-        <div> 
+        <div id="container"> 
             <header>
             <h2 align="center">Experiencia laboral</h2>
             </header> 
@@ -52,7 +54,7 @@
 
 
 
-    <div> 
+    <div id="container"> 
         <header>
         <h2 align="center">Educacion</h2>
         </header> 
@@ -64,7 +66,7 @@
 </section>
 
 <section>
-    <div> 
+    <div id="container"> 
         <header>
         <h2 align="center">Actitudes</h2>
         </header> 
@@ -91,18 +93,26 @@
 
 </section>
 
+
 <p>
-    <header>
+
+    <div id="container"> 
+   <header>
         <h2 align="center">Contactame</h2>
-        </header> 
+    </header>
+    </div>
+       
 
         <form action="">
+            <div>
+            <blockquote><label for="asunto"></label></blockquote>
             <label for="name">Asunto: </label>
             <input type="text" placeholder="ingrese el asunto" id="asunto">
+        </div>
             <label for="name">Correo: </label>
             <input type="email" placeholder="ingrese el correo electronico">
-<div>
-            <label for="mensaje">mensaje: </label>
+
+            <label for="mensaje">Mensaje: </label>
             <textarea id="mensaje" cols="38" rows="10"> </textarea>
             <input type="submit" value="enviar">
 </div>

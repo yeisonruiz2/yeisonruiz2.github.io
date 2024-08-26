@@ -1,0 +1,31 @@
+body{
+    background: rgb(188, 237, 205);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container{
+    width: 40%;
+    width: 600px;
+    margin: 1px auto;
+    border: 1px solid rgb(146, 173, 8);
+
+}
+
+header{
+    background: rgb(236, 127, 17);
+}
+
+.header {
+    background-color:darkorange;
+    color:rgb(7, 154, 24);
+    padding: 10px ;
+    text-align: center;
+    margin: 6px auto;
+    
+}
+
+.header:hover {
+    background-color:rgb(29, 203, 234);
+    border: 3px Dashed rgb(31, 161, 70);
+}
+
